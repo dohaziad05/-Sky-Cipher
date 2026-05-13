@@ -18,6 +18,8 @@ In modern conflict zones, drones face constant threats from GPS denial and commu
 * **AI Architecture:** Deep Reinforcement Learning agents trained to navigate through high-interference zones.
 * **Data-Driven Insights:** Includes the `SkyCipher Dataset`, a comprehensive collection of flight frames categorized by mission outcomes (Evading, Crash, Success).
 * **Predictive Dashboard:** A `Streamlit` interface for real-time visualization of mission success probabilities.
+* **👁️ Tactical Visual Intelligence**
+The **Vision Detection** module utilizes **YOLOv8** to provide the drone with real-time object detection capabilities. This allows the system to identify potential threats or targets even during electronic interference, ensuring the mission continues using visual backup when GPS or signal loss occurs.
 ## ⚙️ Enterprise Integration & Threat Response
 To bridge the gap between AI prediction and real-world operations, **Sky Cipher** utilizes an **n8n** automation pipeline. This workflow acts as a tactical router, instantly processing the AI's predictive outcomes and triggering automated alerts (e.g., when a drone enters a severe jamming zone or faces an imminent crash).
 ![n8n Automation Workflow](https://github.com/user-attachments/assets/969b5561-5c8a-4876-a885-e6b8220c1b37)
@@ -27,11 +29,19 @@ To bridge the gap between AI prediction and real-world operations, **Sky Cipher*
 ## 📂 Repository Structure
 * 🛠️ `environment.py`: The core simulation arena featuring jamming variables and physics constraints.
 * 🚀 `train.py` & `test.py`: Scripts for training the neural networks and evaluating mission resilience.
+* 👁️ `Vision_Detection/`: A comprehensive Computer Vision suite featuring YOLOv8 detection and AirSim integration for tactical visual intelligence.
 * 📊 `mission_control.py`: The interactive command center (Dashboard) for mission prediction.
 * ⚙️ `threat_automation_pipeline.json`: An n8n workflow designed to automate system alerts and data routing based on AI predictions.
 * 🖼️ `dataset_images/`: Over 9,000+ labeled frames capturing drone behavior under electronic attack.
 * 📦 `drone_assets/`: Custom URDF and 3D models for the quadrotor simulation.
 
+## 🛠️ Tech Stack & Tools
+- **AI/ML:** Python, YOLOv8 (Ultralytics), Deep Reinforcement Learning.
+- **Simulation:** AirSim, Unreal Engine 4.
+- **Automation:** n8n Workflow Engine.
+- **Data Analysis:** Pandas, Matplotlib, Streamlit (for Dashboard).
+
+  
 ## 🚀 Quick Start
 
 1. **Clone the project:**
