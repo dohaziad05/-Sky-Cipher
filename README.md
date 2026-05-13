@@ -22,7 +22,7 @@ In modern conflict zones, drones face constant threats from GPS denial and commu
 ## 📂 Repository Structure
 * 🛠️ `environment.py`: The core simulation arena featuring jamming variables and physics constraints.
 * 🚀 `train.py` & `test.py`: Scripts for training the neural networks and evaluating mission resilience.
-* 📊 `app.py`: The interactive command center (Dashboard) for mission prediction.
+* 📊 `mission_control.py`: The interactive command center (Dashboard) for mission prediction.
 * 🖼️ `dataset_images/`: Over 9,000+ labeled frames capturing drone behavior under electronic attack.
 * 📦 `drone_assets/`: Custom URDF and 3D models for the quadrotor simulation.
 
