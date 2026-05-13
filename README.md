@@ -5,7 +5,7 @@
 ![PyBullet](https://img.shields.io/badge/Simulation-PyBullet-green?style=for-the-badge)
 ![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 
-**Sky Cipher** is an advanced AI-driven simulation platform designed to predict and evaluate drone mission success in highly contested environments. By integrating **Reinforcement Learning (RL)** with high-fidelity physics simulations, Sky Cipher analyzes how drones can maintain operational integrity during **Electronic Warfare (EW)** and severe **Signal Jamming** scenarios.
+**Sky Cipher**  is a predictive AI simulation designed to answer one critical question: Will the drone survive the jam? By merging Deep Reinforcement Learning with high-fidelity *PyBullet physics*, this platform simulates severe **Electronic Warfare (EW)** and GPS-denial scenarios. It provides a purely predictive framework to evaluate mission success and evasive strategies when the skies are actively contested.
 
 ## 🛡️ The Mission: Defeating the Jamming
 In modern conflict zones, drones face constant threats from GPS denial and communication interference. **Sky Cipher** provides a predictive framework to:
