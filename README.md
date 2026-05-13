@@ -18,6 +18,13 @@ In modern conflict zones, drones face constant threats from GPS denial and commu
 * **AI Architecture:** Deep Reinforcement Learning agents trained to navigate through high-interference zones.
 * **Data-Driven Insights:** Includes the `SkyCipher Dataset`, a comprehensive collection of flight frames categorized by mission outcomes (Evading, Crash, Success).
 * **Predictive Dashboard:** A `Streamlit` interface for real-time visualization of mission success probabilities.
+## ⚙️ Enterprise Integration & Threat Response
+To bridge the gap between AI prediction and real-world operations, **Sky Cipher** utilizes an **n8n** automation pipeline. This workflow acts as a tactical router, instantly processing the AI's predictive outcomes and triggering automated alerts (e.g., when a drone enters a severe jamming zone or faces an imminent crash).
+
+![n8n Automation Workflow](<img width="592" height="352" alt="image" src="https://github.com/user-attachments/assets/969b5561-5c8a-4876-a885-e6b8220c1b37" />
+)
+
+
 
 ## 📂 Repository Structure
 * 🛠️ `environment.py`: The core simulation arena featuring jamming variables and physics constraints.
